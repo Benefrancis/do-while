@@ -37,7 +37,7 @@ public class Main {
 
         } while (encerrar == false);
 
-        System.out.println("TOTAL DA COMPRA: " + total);
+        System.out.printf("TOTAL DA COMPRA: R$ %,.2f%n" , total);
 
 
     }
